@@ -1,0 +1,156 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 1.2rem
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+@media (max-width: 1020px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+#features {
+  background-color: #ffffff;
+  padding: 7% 15%;
+  position: relative;
+}
+
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 3%;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-p {
+  color: #8f8f8f;
+  padding: 0 5%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-image{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.cta-h3{
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+#footer{
+  padding: 3% 15%;
+  text-align: center;
+}
+
+.footer-icon{
+  margin: 15px;
+}
